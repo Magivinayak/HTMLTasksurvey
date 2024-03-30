@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section>
+
+        <form action="">
+
+            <div class="namesection">
+
+                <label ><h4 class="startsymbol" format="text" contenteditable="true" >Name  </h4>
+                    <input type="text" id="Firstname" placeholder="First" > 
+                    <input type="text" id="lastname" placeholder="Last">
+                </label>
+                
+            </div>
+
+            <div class="emailsection">
+
+                <label><h4 class="startsymbol" format="text" contenteditable="true" >Email </h4>
+                    <input type="email" id="email"  placeholder="Email"> 
+                </label>
+
+            </div>
+
+            <div class="ratingsection">
+
+                <label><h4 class="startsymbol" format="text" contenteditable="true" >Your Experience </h4></label>
+                <div class="rating">
+                    <input type="radio" name="rating" id="rating-1" value="1" />
+                    <label for="rating-1">★</label>
+                    <input type="radio" name="rating" id="rating-2" value="2" />
+                    <label for="rating-2">★</label>
+                    <input type="radio" name="rating" id="rating-3" value="3" />
+                    <label for="rating-3">★</label>
+                    <input type="radio" name="rating" id="rating-4" value="4" />
+                    <label for="rating-4">★</label>
+                    <input type="radio" name="rating" id="rating-5" value="5" />
+                    <label for="rating-5">★</label>
+                  </div>
+                <p>Overall how would you like to rate your Experience?</p>
+            </div>
+
+           
+ 
+            <section class="ststableSection">
+                <table class="ststable"><h4 class="startsymbol" format="text" contenteditable="true" >How satisfied are you with</h4>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Very Unsatisfied</th>
+                            <th>Unsatisfied</th>
+                            <th>Netural</th>
+                            <th>satisfied</th>
+                            <th>Very satisfied</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="row1">
+                            <td>Purchase</td>
+                            <td><input type="radio" id="radio-p1" name="radio_group1" value="option"></td>
+                            <td><input type="radio" id="radio-p2" name="radio_group1" value="option"></td>
+                            <td><input type="radio" id="radio-p3" name="radio_group1" value="option"></td>
+                            <td><input type="radio" id="radio-p4" name="radio_group1" value="option"></td>
+                            <td><input type="radio" id="radio-p5" name="radio_group1" value="option"></td>
+                        </tr>
+                        <tr id="row2">
+                            <td>Service</td>
+                            <td><input type="radio" id="radios1" name="radio_group2" value="option"></td>
+                            <td><input type="radio" id="radios2" name="radio_group2" value="option"></td>
+                            <td><input type="radio" id="radios3" name="radio_group2" value="option"></td>
+                            <td><input type="radio" id="radios4" name="radio_group2" value="option"></td>
+                            <td><input type="radio" id="radios5" name="radio_group2" value="option"></td>
+                        </tr>
+                        <tr id="row3">
+                            <td>Company Overall</td>
+                            <td><input type="radio" id="radioco1" name="radio_group3" value="option"></td>
+                            <td><input type="radio" id="radioco2" name="radio_group3" value="option"></td>
+                            <td><input type="radio" id="radioco3" name="radio_group3" value="option"></td>
+                            <td><input type="radio" id="radioco4" name="radio_group3" value="option"></td>
+                            <td><input type="radio" id="radioco5" name="radio_group3" value="option"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="liketableSection">
+                <table class="liketable"><h4 class="startsymbol" format="text" contenteditable="true" >How likely are you to</h4>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Very satisfied</th>
+                            <th>Unsatisfied</th>
+                            <th>Netural</th>
+                            <th>satisfied</th>
+                            <th>Very satisfied</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="row4">
+                            <td>Buy from us again</td>
+                            <td><input type="radio" id="radiob1" name="radio_group4" value="option1"></td>
+                            <td><input type="radio" id="radiob2" name="radio_group4" value="option1"></td>
+                            <td><input type="radio" id="radiob3" name="radio_group4" value="option1"></td>
+                            <td><input type="radio" id="radiob4" name="radio_group4" value="option1"></td>
+                            <td><input type="radio" id="radiob5" name="radio_group4" value="option1"></td>
+                        </tr>
+                        <tr id="row5">
+                            <td>Recommend our products to others</td>
+                            <td><input type="radio" id="radiorp1" name="radio_group5" value="option2"></td>
+                            <td><input type="radio" id="radiorp2" name="radio_group5" value="option2"></td>
+                            <td><input type="radio" id="radiorp3" name="radio_group5" value="option2"></td>
+                            <td><input type="radio" id="radiorp4" name="radio_group5" value="option2"></td>
+                            <td><input type="radio" id="radiorp5" name="radio_group5" value="option2"></td>
+                        </tr>
+                        <tr id="row6">
+                            <td>Recommend our to Company others</td>
+                            <td><input type="radio" id="radiorc1" name="radio_group6" value="option1"></td>
+                            <td><input type="radio" id="radiorc2" name="radio_group6" value="option1"></td>
+                            <td><input type="radio" id="radiorc3" name="radio_group6" value="option1"></td>
+                            <td><input type="radio" id="radiorc4" name="radio_group6" value="option1"></td>
+                            <td><input type="radio" id="radiorc5" name="radio_group6" value="option1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        <section class="textareasection">Additional comments or suggestions
+            <br><br>
+            <textarea id="textareabox" name="textarea" rows="5" cols="63" ></textarea><br><br>
+        </section>
+        
+
+       <input id="submittbutton" type="submit" value="Submit">
+    </form>
+    </section>
+    
+</body>
+</html>
